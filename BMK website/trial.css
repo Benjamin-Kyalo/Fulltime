@@ -24,7 +24,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 8%;
+  padding: 16px 6%;
   transition: background 5s;
   text-transform: uppercase;
 }
@@ -71,12 +71,14 @@ nav ul li a {
   font-weight: 500;
 }
 nav a:hover {
-  background: #eee;
+  background:#00bcd4 ;
   color: black;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 nav:hover {
-  background: white;
+  background: linear-gradient(-45deg, white 50%, skyblue 0%);
 }
 
 nav:hover .logo {

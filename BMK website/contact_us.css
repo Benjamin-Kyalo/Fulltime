@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box; */
   font-family: "Poppins" sans-serif;
-
   position: relative;
   min-height: 100vh;
   padding: 50px 100px;
@@ -23,10 +22,11 @@
 }
 .content,
 .contact-us-page h2 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 500;
   color: #fff;
 }
+/* trial should be removed */
 .content,
 .contact-us-page p {
   font-weight: 300;

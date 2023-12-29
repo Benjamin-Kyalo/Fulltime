@@ -66,13 +66,21 @@
 .fulltime-team-members {
   width: 90%;
   border-radius: 20px;
-  margin: 30px ;
+  margin: 30px;
   padding: 20px;
   align-items: center;
 }
 
-#TEAM-SECTION{
-  background-image: linear-gradient(-45deg, #00bcd4 50%, aqua 0%);
+#TEAM-SECTION {
+  background-image: linear-gradient(-45deg, white 30%, aqua 0%);
+}
+#TEAM-SECTION h1 {
+  /* padding: 20px;
+  border-radius: 20px;
+  border: 20px; */
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(-45deg, white 50%, skyblue 0%);
 }
 
 #company-summary {
@@ -90,10 +98,12 @@
 
 #about h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-bottom: 30px;
   color: black;
   text-align: left;
   text-transform: uppercase;
+  background: linear-gradient(45deg, white 70%, skyblue 0%);
+  padding: 20px;
+  border-radius: 20px;
 }
 #company-summary h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -101,8 +111,8 @@
   color: black;
   text-align: left;
   text-transform: uppercase;
+  /* background: linear-gradient(-45deg, white 50%, skyblue 0%); */
 }
-
 
 .mission-vision-values {
   display: flex;
@@ -121,14 +131,14 @@
   border-radius: 20px;
   line-height: 2;
   font-size: 30px;
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
 }
 
 .mission-vision-values h2 {
   text-align: center;
-  color: #eee;
+  /* color: #eee; */
+  background-image: linear-gradient(-45deg, white 50%, greenyellow 0%);
   text-transform: uppercase;
+  border-radius: 15px;
 }
 
 .mission-vision-values p li {
@@ -169,7 +179,8 @@
 .all-images-section2,
 .all-images-section3 {
   display: flex;
-  background: linear-gradient(-45deg, #00bcd4 50%, aqua 0%);
+  /* background: linear-gradient(-45deg, #00bcd4 50%, aqua 0%); */
+  background-image: linear-gradient(-45deg, white 50%, greenyellow 0%);
   justify-content: center;
   flex-wrap: wrap; /* it is supposed to be wrap */
   border-radius: 20px;
@@ -177,18 +188,17 @@
   padding: 15px;
 }
 .project {
-  background: linear-gradient(-45deg, #00bcd4 30%, aqua 0%);
+  /* background: linear-gradient(-45deg, greenyellow 30%, aqua 0%); */
+  background-image: linear-gradient(45deg, white 25%, greenyellow 0%);
   justify-content: left;
   border-radius: 20px;
   margin: 20px;
   padding: 20px;
   text-transform: capitalize;
-}
-.project:hover {
   text-transform: uppercase;
   color: white;
-  /* background-color: white */
 }
+
 .card-images {
   background: white;
   width: 100%;
