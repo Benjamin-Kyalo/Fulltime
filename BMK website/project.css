@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+@media all and (max-width: 480px) {
+  img {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+  }
+}
+.container-new1 {
+  display: flex;
+  background-color: #00bcd4;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  border: 10px;
+  border-radius: 15px;
+}
+
+.image-size {
+  width: 500px;
+  height: 500px;
+}
+
+img {
+  /* max-width: 100%;
+  min-height: 100%; */
+  object-fit: cover;
+  object-position: bottom;
+  padding: 15px;
+  border: 10px;
+  border-radius: 15px;
+}
+
+.project-image1,
+.project-image2,
+.project-image3 {
+  justify-content: space-between;
+}
+
+/* Trial begins here */
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fddcc356;
+}
+
+.container-trial{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 50%;
+    height: 600px;
+    background-image: url("https://github.com/Benjamin-Kyalo/Fulltime/blob/a240f499e87e1e99f68ef4ea53e45de9fbad908d/BMK%20website/projects/lakewood.jpeg") no-repeat center / cover;
+
+}

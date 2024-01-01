@@ -1,9 +1,55 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 
-@media screen and (max-width: 768px) {
-  nav .logo {
-    font-size: 20px;
+@media all and (max-width: 450px) {
+  .content .slide-left {
+    font-size: 15px;
+    font-weight: none;
+    align-items: center;
   }
+  nav .logo {
+    font-size: 50px;
+    
+  }
+  nav ul {
+    font-size: 10px;
+  }
+  .logo span{
+    font-size: 10px;
+  }
+
+  .header {
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    align-items: center;
+  }
+   .content p {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 10px;
+    /* text-align: left; */
+  }
+  .links a {
+    font-size: 10px;
+  }
+  .about-us-h1,
+  .about-us-paragraph,
+  .company-summary-h1,
+  .company-summary-paragraph,
+  #TEAM-SECTION h1,
+  .mission-h2,
+  .vision-h2,
+  .values-h2,
+  .mission-paragraph,
+  li {
+    font-size: 15px;
+  }
+}
+.mission-vision-values {
+  justify-content: none;
+  display: table-row;
+  width: auto;
+  height: auto;
 }
 
 * {
@@ -104,10 +150,12 @@ nav:hover ul li a {
 
 .content p {
   max-width: 500px;
-  line-height: 28px;
   opacity: 0;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  color: #00bcd4;
+  font-weight: bolder;
 }
 
 .links {
