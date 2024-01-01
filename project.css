@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-new1{
+    display: flex;
+}
+.image-size img {
+    width: 50%;
+    height: 50%
+}

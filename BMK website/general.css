@@ -221,7 +221,7 @@
   background-size: cover;
   border-radius: 15px 15px 0 0;
 }
-.project-1 {
+/* .project-1 {
   background-image: url(projects/lakewood.jpeg);
 }
 .project-2 {
@@ -247,7 +247,7 @@
 }
 .project-9 {
   background-image: url(projects/nyahururu.jpeg);
-}
+} */
 
 .card-images:hover {
   background-color: var(--pale-blue);
@@ -257,6 +257,3 @@
   transition: all 2s ease-out;
 }
 
-/* THIS IS A TEST DRIVE FOR GITHUB */
-/* THIS IS A TEST DRIVE FOR GITHUB */
-/* THIS IS A TEST BY BMK DRIVE FOR FULLTIME */
