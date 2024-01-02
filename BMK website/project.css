@@ -9,68 +9,207 @@
   padding: 0;
 }
 
-html{
-    font-family: "Poppins", sans-serif;
+html {
+  font-family: "Poppins", sans-serif;
 }
-@media all and (max-width: 480px) {
-  img {
-    width: 100%;
-    max-width: 100%;
-    min-height: 100%;
-  }
-}
-.container-new1 {
-  display: flex;
-  background-color: #00bcd4;
-  justify-content: space-around;
-  align-items: center;
-  padding: 15px;
-  border: 10px;
-  border-radius: 15px;
-}
-
-.image-size {
-  width: 500px;
-  height: 500px;
-}
-
-img {
-  /* max-width: 100%;
-  min-height: 100%; */
-  object-fit: cover;
-  object-position: bottom;
-  padding: 15px;
-  border: 10px;
-  border-radius: 15px;
-}
-
-.project-image1,
-.project-image2,
-.project-image3 {
-  justify-content: space-between;
-}
-
 /* Trial begins here */
-section{
-    min-height: 100vh;
+
+#All-fulltime-projects-2024 .project {
+  text-align: center;
+  background: linear-gradient(-45deg, #fddcc356 30%, purple 0%);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  /* min-height: 100vh; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fddcc356;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-trial {
+  width: 90%;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  /* background-color: aqua; */
+}
+.left {
+  width: 30%;
+  height: 600px;
+  background: url(projects/lakewood.jpeg) no-repeat center / cover;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.left1 {
+  width: 30%;
+  height: 600px;
+  background: url(projects/nyahururu.jpeg) no-repeat center / cover;
+  border-radius: 8px;
+}
+
+.left2 {
+  width: 30%;
+  height: 600px;
+  background: url(projects/embu.jpeg) no-repeat center / cover;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.left3 {
+  width: 30%;
+  height: 600px;
+  background: url(projects/kitengela.jpeg) no-repeat center / cover;
+  border-radius: 8px;
+}
+
+/* REST OF PROJECTS */
+.left4 {
+  width: 30%;
+  height: 600px;
+  background: url(all_projects/kitui_commissioning.jpeg) no-repeat center /
+    cover;
+  border-radius: 8px;
+}
+
+.left5 {
+  width: 30%;
+  height: 600px;
+  background: url(all_projects/360_syokimau.jpeg) no-repeat center / cover;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.left6 {
+  width: 30%;
+  height: 600px;
+  background: url(all_projects/joska.jpeg) no-repeat center / cover;
+  border-radius: 8px;
+}
+
+.left7 {
+  width: 30%;
+  height: 600px;
+  background: url(all_projects/kitengela_panels.jpeg) no-repeat center / cover;
+  border-radius: 8px;
+}
+/* BEGINNING OF REST OF STYLES */
+.left:hover,
+.right:hover,
+.left1:hover,
+.right1:hover,
+.left2:hover,
+.right2:hover,
+.left3:hover,
+.right3:hover,
+.left4:hover,
+.right4:hover,
+.left5:hover,
+.right5:hover,
+.left6:hover,
+.right6:hover,
+.left7:hover,
+.right7:hover {
+  background-color: var(--pale-blue);
+  color: royalblue;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 2s ease-out;
+}
+
+.right,
+.right1,
+.right2,
+.right3,
+.right4,
+.right5,
+.right6,
+.right7 {
+  width: 20%;
+  /* min-height: px; */
+  background-color: #2f3d3c;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+  font-size: 20px;
+}
+
+.right h1,
+.right1 h1,
+.right2 h1,
+.right3 h1,
+.right4 h1,
+.right5 h1,
+.right6 h1,
+.right7 h1 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.right p,
+.right1 p,
+.right2 p,
+.right3 p,
+.right4 p,
+.right5 p,
+.right6 p,
+.right7 p {
+  margin: 20px 0;
+  font-weight: 500;
+}
+/* This media query contains small devices like phones
+medium devices like laptops and large devices like desktops */
+@media only screen and (max-width: 767px),
+  (min-width: 768px) and (max-width: 991px) {
+  .container-trial {
+    flex-direction: column;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fddcc356;
-}
-
-.container-trial{
+    margin: 0 20px;
+  }
+  .left,
+  .left1,
+  .left2,
+  .left3,
+  .left4,
+  .left15,
+  .left6,
+  .left7 {
+    width: 100%;
+    height: 400px;
+  }
+  .right,
+  .right1,
+  .right2,
+  .right3,
+  .right4,
+  .right5,
+  .right6,
+  .right7 {
     width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.left{
-    width: 50%;
-    height: 600px;
-    background-image: url("https://github.com/Benjamin-Kyalo/Fulltime/blob/a240f499e87e1e99f68ef4ea53e45de9fbad908d/BMK%20website/projects/lakewood.jpeg") no-repeat center / cover;
-
+    margin: 0;
+    margin-top: -20px;
+  }
+  .right h1,
+  .right1 h1,
+  .right2 h1,
+  .right3 h1,
+  .right4 h1,
+  .right5 h1,
+  .right6 h1,
+  .right7 h1 p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
 }

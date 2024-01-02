@@ -1,4 +1,18 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
 :root {
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
@@ -13,15 +27,7 @@
   /* example usage of the colors */
   /* background:linear-gradient(-45deg, white 30%,yellow 0%); */
 }
-/* Animation styles */
-@keyframes slideheadingleft {
-  from {
-    transform: translateX(-300px);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
+
 .company-summary-h1,
 .about-us-h1,
 .mission-h2,
@@ -51,10 +57,10 @@
 /* Beginning of other styles */
 #about {
   /* background-color: #eee; */
-  background-image: linear-gradient(-45deg, white 30%, lightblue 0%);
+  background-image: linear-gradient(-45deg, #fddcc356 60%, lightblue 0%);
   background-repeat: no-repeat;
   background-size: contain;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 20px;
   padding: 20px;
   color: black;
@@ -72,43 +78,50 @@
 }
 
 #TEAM-SECTION {
-  background-image: linear-gradient(-45deg, white 30%, aqua 0%);
+  text-align: center;
+  background: linear-gradient(-45deg, #fddcc356 30%, purple 0%);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 #TEAM-SECTION h1 {
-  /* padding: 20px;
-  border-radius: 20px;
-  border: 20px; */
   text-transform: uppercase;
   text-align: center;
-  background: linear-gradient(-45deg, white 50%, skyblue 0%);
+  /* background: linear-gradient(-45deg, white 30%, skyblue 0%); */
+  background: linear-gradient(-45deg, #fddcc356 30%, white 0%);
+  border-radius: 20px;
+  margin: 20px;
+  color: skyblue;
+  font-family: "Poppins", sans-serif;
 }
 
 #company-summary {
   /* background-image: linear-gradient(-45deg, white 30%, tomato 0%); */
-  background-image: linear-gradient(-45deg, skyblue 50%, purple 0%);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(-45deg, #fddcc356 50%, purple 0%);
+  font-family: "Poppins", sans-serif;
   border-radius: 20px;
   padding: 20px;
-  color: white;
+  /* color: white; */
   line-height: 2;
   font-size: 30px;
   margin: 30px;
   text-align: justify;
+  font-weight: bolder;
 }
 
 #about h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
   text-align: left;
   text-transform: uppercase;
-  background: linear-gradient(45deg, white 70%, skyblue 0%);
   padding: 20px;
   border-radius: 20px;
 }
 #company-summary h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-bottom: 30px;
-  color: black;
+  color: white;
   text-align: left;
   text-transform: uppercase;
   /* background: linear-gradient(-45deg, white 50%, skyblue 0%); */
@@ -116,8 +129,9 @@
 
 .mission-vision-values {
   display: flex;
-  justify-content: space-between;
-  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  float: right;
 }
 
 .mission,
@@ -127,133 +141,57 @@
   padding: 20px;
   margin: 20px;
   text-align: left;
-  background-color: skyblue;
+  background-color: #fddcc356;
   border-radius: 20px;
   line-height: 2;
   font-size: 30px;
+  color: black;
+  font-weight: bolder;
 }
 
 .mission-vision-values h2 {
   text-align: center;
-  /* color: #eee; */
-  background-image: linear-gradient(-45deg, white 50%, greenyellow 0%);
-  text-transform: uppercase;
-  border-radius: 15px;
+  background: linear-gradient(-45deg, #fddcc356 30%, purple 0%);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .mission-vision-values p li {
   text-align: justify;
 }
 
-#container {
-  max-width: 1200px;
-  margin: auto;
-  background: skyblue;
-  overflow: auto;
-}
-.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 390px;
-}
-
-.gallery-description {
-  padding: 15px;
+#All-fulltime-projects .project {
   text-align: center;
-}
-.gallery img {
-  width: 500px;
-  height: 500px;
-}
-.project {
-  font-size: 50px;
-}
-.gallery:hover {
-  background: white;
-  color: #ccc;
-}
-
-/* Fulltime projects styles */
-.all-images-section1,
-.all-images-section2,
-.all-images-section3 {
-  display: flex;
-  /* background: linear-gradient(-45deg, #00bcd4 50%, aqua 0%); */
-  background-image: linear-gradient(-45deg, white 50%, greenyellow 0%);
-  justify-content: center;
-  flex-wrap: wrap; /* it is supposed to be wrap */
-  border-radius: 20px;
-  margin: 10px;
-  padding: 15px;
-}
-.project {
-  /* background: linear-gradient(-45deg, greenyellow 30%, aqua 0%); */
-  background-image: linear-gradient(45deg, white 25%, greenyellow 0%);
-  justify-content: left;
+  /* background: linear-gradient(-45deg, #fddcc356 30%, purple 0%); */
   border-radius: 20px;
   margin: 20px;
-  padding: 20px;
-  text-transform: capitalize;
-  text-transform: uppercase;
   color: white;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
-.card-images {
-  background: white;
-  width: 100%;
-  /* height: 100%; height: 400px; */
-  margin: 10px;
-}
-#All-fulltime-projects,
-.all-images-section1,
-.card-images h2 p {
-  font-size: 40px;
-  font-style: italic;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: center;
+/* Animation styles */
+@keyframes slideheadingleft {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
-.fulltime-projects {
-  height: 1000px;
-  margin-bottom: 15px;
-  background-size: cover;
-  border-radius: 15px 15px 0 0;
-}
-/* .project-1 {
-  background-image: url(projects/lakewood.jpeg);
-}
-.project-2 {
-  background-image: url(projects/kitengela.jpeg);
-}
-.project-3 {
-  background-image: url(projects/syokimau.jpeg);
-}
-.project-4 {
-  background-image: url(projects/cctv.jpeg);
-}
-.project-5 {
-  background-image: url(projects/electric_fence.jpeg);
-}
-.project-6 {
-  background-image: url(projects/electric_wiring_installation.jpeg);
-}
-.project-7 {
-  background-image: url(projects/embu.jpeg);
-}
-.project-8 {
-  background-image: url(projects/embu_floodlights.jpeg);
-}
-.project-9 {
-  background-image: url(projects/nyahururu.jpeg);
-} */
 
-.card-images:hover {
-  background-color: var(--pale-blue);
-  color: royalblue;
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: all 2s ease-out;
-}
+@media only screen and (max-width: 767px),
+  (min-width: 768px){
+    .mission-vision-values{
+      /* /* display: flex; */
+      align-items: center;
+      /* width: 100%; */
+      justify-content: space-around;
+      display: flex;
+
+    }
+  }
 
