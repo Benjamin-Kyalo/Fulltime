@@ -202,14 +202,26 @@ p.slide-left {
 .links.slide-left {
   animation-delay: 3s;
 }
-/* FOOTER */
-footer {
-  padding: 10px;
-  font-size: 17px;
-  font-weight: bold;
+
+/* FOOTER SECTION */
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+  
+}
+footer p{
   text-align: center;
-  background: #594848;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
+}
+.footer-container{
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex; 
+  justify-content: space-around;
+}
+.footer-nav-links{
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  display: flex;
 }
