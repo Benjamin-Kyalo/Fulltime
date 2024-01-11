@@ -1,0 +1,47 @@
+/* LARGER SCREENS 
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-top: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  */
+
+/* NORMAL DESKTOP  */
+@media screen and (max-width: 1200px) {
+  #desktop-nav-fulltime-nav {
+    display: none;
+  }
+  #hamburger-nav-collapsing-nav {
+    display: flex;
+  }
+  .menu-links-fulltime-menu-links.open {
+    max-height: 300px;
+  }
+  .paragraph-below-nav {
+    font-size: 40px;
+    font-weight: 10px;
+    height: 100vh;
+    color: white;
+    font-style: italic;
+  }
+  .heading-below-nav {
+    font-size: 50px;
+    font-weight: 10px;
+    margin: 20px;
+    color: greenyellow;
+  }
+  .menu-links-fulltime-menu-links{
+    background-color: #d2d9e3;
+    border-radius: 20px;
+  }
+  .menu-links-fulltime-menu-links{
+    height: 20vh;
+    line-height: 10px;
+    width: auto;
+    justify-items: auto;
+    
+  }
+}
