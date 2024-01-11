@@ -1,4 +1,4 @@
-* LARGER SCREENS */
+/* LARGER SCREENS 
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -7,15 +7,17 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  */
 
-/* NORMAL DESKTOP */
+/* NORMAL DESKTOP  */
 @media screen and (max-width: 1200px) {
-  #desktop-nav {
+  #desktop-nav-fulltime-nav {
     display: none;
   }
-  #hamburger-nav {
+  #hamburger-nav-collapsing-nav {
     display: flex;
   }
-  .menu-links.open {
+  .menu-links-fulltime-menu-links.open {
     max-height: 300px;
   }
+}

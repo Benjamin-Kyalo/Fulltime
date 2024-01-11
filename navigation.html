@@ -2,46 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigation Page</title>
     <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="fulltimemediaquerries.css" />
   </head>
   <body>
-    <!-- BEGINNING OF NAVIGATION -->
-    <nav id="desktop-nav">
+    <div class="FULLTIME-NAVIGATION-SECTION">
+    <nav id="desktop-nav-fulltime-nav">
       <div class="logo-fulltime">
         <img src="./BMK website/images/logo.png" alt="" />
       </div>
-      <div class="fulltime-name">Fulltime Solar Solutions</div>
+      <div class="logo-fulltime-logo">Fulltime Solar Solutions</div>
       <div>
-        <ul class="nav-links">
+        <ul class="nav-links-fulltime-nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="projects.html" target="_blank">More</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="projects.html">More</a></li>
         </ul>
       </div>
     </nav>
-
-    <nav id="hamburger-nav">
-      <div class="logo-fulltime">Benjamin Kyalo</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+    <nav id="hamburger-nav-collapsing-nav">
+      <div class="logo-fulltime-logo">Fulltime Solar Solutions</div>
+      <div class="hamburger-menu-collapsing-menu">
+        <div class="hamburger-icon-collapsing-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
-          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <div class="menu-links-fulltime-menu-links">
+          <li><a href="#" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#projects.html" onclick="toggleMenu()">More</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">More</a></li>
         </div>
       </div>
     </nav>
+  
+  <!-- CONTENT BELOW NAVIGATION -->
+  <div class="content-below-navigation">
+    <h1 class="slide-left">
+      Clean, Green, Economical<br />and Reliable Energy.
+    </h1>
+    <p class="slide-left">
+      Empowering Your Day By Illuminating Your Nights!
+    </p>
+    <div class="links slide-left">
+      <a href="#All-fulltime-projects" class="btn">See projects</button></a>
+      <a href="#Contact-information-fulltime" class="btn-contact">or Contact</a>
+    </div>
+  </div>
+</div>
+<br />
     <script src="nav.js"></script>
   </body>
 </html>
