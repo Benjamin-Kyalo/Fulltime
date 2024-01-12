@@ -42,7 +42,7 @@ a,
   height: 7rem;
 }
 nav,
-.nav-links-fulltime-nav-links {
+.fulltime-nav-links {
   display: flex;
   
 }
@@ -59,7 +59,7 @@ nav {
   background: linear-gradient(-45deg, white 30%, skyblue 0%);
 } */
 
-.nav-links-fulltime-nav-links {
+.fulltime-nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
@@ -75,21 +75,21 @@ a:hover {
   text-underline-offset: 1rem;
   text-decoration-color: #b5b5b5;
 }
-.logo-fulltime-logo {
+.fulltime-logo {
   font-size: 2rem;
 }
-.logo-fulltime-logo:hover {
+.fulltime-logo:hover {
   cursor: default;
 }
 /* FULLTIME MENU */
-#hamburger-nav-collapsing-nav {
+#collapsing-nav {
   display: none;
 }
-.hamburger-menu-collapsing-menu {
+.collapsing-menu {
   position: relative;
   display: inline-block;
 }
-.hamburger-icon-collapsing-icon {
+.collapsing-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -97,13 +97,13 @@ a:hover {
   width: 30px;
   cursor: pointer;
 }
-.hamburger-icon-collapsing-icon span {
+.collapsing-icon span {
   width: 100%;
   height: 2px;
   background-color: black;
   transition: all 0.3 ease-in-out;
 }
-.menu-links-fulltime-menu-links {
+.fulltime-menu-links {
   position: absolute;
   top: 100%;
   right: 0%;
@@ -113,7 +113,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
   
 }
-.menu-links-fulltime-menu-links a {
+.fulltime-menu-links a {
   display: block;
   padding: 10px;
   text-align: center;
@@ -122,28 +122,28 @@ a:hover {
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
-.menu-links-fulltime-menu-links li {
+.fulltime-menu-links li {
   list-style: none;
 }
-.menu-links-fulltime-menu-links.open {
+.fulltime-menu-links.open {
   max-width: 300px;
 }
-.hamburger-icon-collapsing-icon.open span:first-child {
+.collapsing-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
-.hamburger-icon-collapsing-icon.open span:nth-child(2) {
+.collapsing-icon.open span:nth-child(2) {
   opacity: 0;
 }
-.hamburger-icon-collapsing-icon.open span:last-child {
+.collapsing-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
-.hamburger-icon-collapsing-icon {
+.collapsing-icon {
   transform: none;
 }
-.hamburger-icon-collapsing-icon {
+.collapsing-icon {
   opacity: 1;
 }
-.hamburger-icon-collapsing-icon {
+.collapsing-icon {
   transform: none;
 }
 
