@@ -1,12 +1,12 @@
 /* NORMAL DESKTOP  */
 @media screen and (max-width: 1200px) {
-  #desktop-nav-fulltime-nav {
+  #fulltime-nav {
     display: none;
   }
-  #hamburger-nav-collapsing-nav {
+  #collapsing-nav {
     display: flex;
   }
-  .menu-links-fulltime-menu-links.open {
+  .fulltime-menu-links.open {
     max-height: 300px;
   }
   .paragraph-below-nav {
@@ -22,26 +22,75 @@
     margin: 20px;
     color: greenyellow;
   }
-  .menu-links-fulltime-menu-links{
+  .fulltime-menu-links {
     background-color: #d2d9e3;
     border-radius: 20px;
   }
-  .menu-links-fulltime-menu-links{
+  .fulltime-menu-links {
     height: 20vh;
     line-height: 10px;
     width: auto;
     justify-items: auto;
-    
+  }
+}
+/* SMALL DEVICES (TABLETS) */
+@media only screen and (max-width: 767px), (min-width: 768px) {
+  .mission-vision-values {
+    justify-content: space-around;
+    display: flex;
+  }
+  .list-bulleting {
+    font-size: 20px;
+    font-weight: lighter;
   }
 }
 /* SMALL DEVICES (PHONES) */
 @media only screen and (max-width: 600px) {
-  #Mission-Vision-Values{
+  .fulltime-logo {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .fulltime-menu-links a {
+    font-size: 15px;
+    height: 1.5rem;
+  }
+  .heading-below-nav {
+    font-size: 30px;
+  }
+  .paragraph-below-nav {
+    font-size: 20px;
+  }
+  .mission-vision-values {
     display: block;
   }
-}
-
-/* SMALL DEVICES (TABLETS) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  
+  .company-summary-paragraph,
+  .about-us-paragraph {
+    font-size: 15px;
+  }
+  #about h1,
+  #company-summary h1 {
+    font-size: 30px;
+  }
+  .mission-vision-values h2 {
+    font-size: 30px;
+  }
+  .list-bulleting {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .project-h1 {
+    font-size: 30px;
+  }
+  #TEAM-SECTION h1 {
+    font-size: 30px;
+  }
+  .footer-container li {
+    font-size: 14px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  .nav-footer {
+    display: none;
+  }
 }
