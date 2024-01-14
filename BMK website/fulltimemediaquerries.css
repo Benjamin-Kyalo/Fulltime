@@ -43,6 +43,12 @@
     font-size: 20px;
     font-weight: lighter;
   }
+  #Contact-information-fulltime{
+    width: 97%;
+  }
+  .box p{
+    width: auto;
+  }
 }
 /* SMALL DEVICES (PHONES) */
 @media only screen and (max-width: 600px) {
@@ -81,7 +87,27 @@
   .project-h1 {
     font-size: 30px;
   }
+  #Contact-information-fulltime{
+    width: 94%;
+  }
+  .contact-us-page h2{
+    font-size: 25px;
+  }
+  .icon-text p{
+    font-size: 15px;
+    
+    width: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+  .contact-container .contactinfo .box .icon-text h3{
+font-size: 20px;
+  }
   #TEAM-SECTION h1 {
+    font-size: 30px;
+  }
+  .fulltime-employee-h1{
     font-size: 30px;
   }
   .footer-container li {

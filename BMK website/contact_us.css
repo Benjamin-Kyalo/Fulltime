@@ -14,9 +14,6 @@ html {
 }
 
 .contact-us {
-  /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
   font-family: "Poppins" sans-serif;
   position: relative;
   min-height: 100vh;
@@ -25,22 +22,23 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(-45deg, white 30%, purple 0%);
+  /* background-image: linear-gradient(-45deg, white 30%, purple 0%); */
+  background: #6ABEA7;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.content .contact-us-page {
+/* content */.contact-us-page { 
   max-width: 800px;
   text-align: center;
 }
-.content,
+/* content */
 .contact-us-page h2 {
-  font-size: 60px;
+  /* font-size: 60px;
   font-weight: 500;
-  color: #fff;
+  color: #fff; */
 }
 /* trial should be removed */
-.content,
+/* content */
 .contact-us-page p {
   font-weight: 300;
   color: #fff;
@@ -81,11 +79,12 @@ html {
   color: #fff;
   flex-direction: column;
   font-weight: 300;
+  line-height: normal;
 }
 
 .contact-container .contactinfo .box .icon-text h3 {
   font-weight: 500;
-  color: #00bcd4;
+  color: black;
 }
 
 .contact-form {
@@ -159,6 +158,7 @@ textarea {
 (min-width: 768px) {
   .contact-us {
     padding: 50px;
+    font-size: 30px;
   }
   .contact-container,
   .mission,
