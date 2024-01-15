@@ -5,6 +5,7 @@
   }
   #collapsing-nav {
     display: flex;
+    justify-content: space-around;
   }
   .fulltime-menu-links.open {
     max-height: 300px;
@@ -32,6 +33,11 @@
     width: auto;
     justify-items: auto;
   }
+  #Contact-information-fulltime,
+  .contact-us {
+    width: 100%;
+    display: block;
+  }
 }
 /* SMALL DEVICES (TABLETS) */
 @media only screen and (max-width: 767px), (min-width: 768px) {
@@ -43,10 +49,12 @@
     font-size: 20px;
     font-weight: lighter;
   }
-  #Contact-information-fulltime{
-    width: 97%;
+  #Contact-information-fulltime,
+  .contact-us {
+    width: 100%;
+    display: block;
   }
-  .box p{
+  .box p {
     width: auto;
   }
 }
@@ -87,27 +95,29 @@
   .project-h1 {
     font-size: 30px;
   }
-  #Contact-information-fulltime{
-    width: 94%;
+  #Contact-information-fulltime,
+  .contact-us {
+    width: 100%;
+    flex-direction: row-reverse;
   }
-  .contact-us-page h2{
+  .contact-us-page h2 {
     font-size: 25px;
   }
-  .icon-text p{
+  .icon-text p {
     font-size: 15px;
-    
+
     width: auto;
     padding: 0;
     margin: 0;
     border-radius: 0;
   }
-  .contact-container .contactinfo .box .icon-text h3{
-font-size: 20px;
+  .contact-container .contactinfo .box .icon-text h3 {
+    font-size: 20px;
   }
   #TEAM-SECTION h1 {
     font-size: 30px;
   }
-  .fulltime-employee-h1{
+  .fulltime-employee-h1 {
     font-size: 30px;
   }
   .footer-container li {
@@ -120,3 +130,6 @@ font-size: 20px;
     display: none;
   }
 }
+
+
+.contact-us

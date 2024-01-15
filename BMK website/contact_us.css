@@ -12,6 +12,10 @@
 html {
   font-family: "Poppins", sans-serif;
 }
+#Contact-information-fulltime{
+  /* width: 100%; */
+  justify-content: space-around;
+}
 
 .contact-us {
   font-family: "Poppins" sans-serif;

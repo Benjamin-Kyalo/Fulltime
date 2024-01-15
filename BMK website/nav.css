@@ -36,7 +36,7 @@ html {
   /* background:linear-gradient(-45deg, white 30%,yellow 0%); */
 }
 /* TRANSITIONS */
-#fulltime-nav,
+/* #fulltime-nav,
 #collapsing-nav {
   animation-name: slideheadingleft;
   animation-duration: 3s;
@@ -46,7 +46,7 @@ html {
   animation-fill-mode: none;
 
   transform: translateX(0px);
-}
+} */
 a,
 .btn {
   transition: all 300ms ease;
@@ -163,7 +163,7 @@ a:hover {
 
 /* CONTENT BELOW NAVIGATION */
 .content-below-navigation {
-  width: 97%;
+  /* width: 97%; */
   height: 100vh;
   background-image: linear-gradient(rgba(5, 0, 136, 0.5), rgba(5, 0, 136, 0.5)),
     url("images/panel.jpeg");
